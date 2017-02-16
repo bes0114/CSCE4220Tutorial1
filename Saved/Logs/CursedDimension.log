@@ -1,0 +1,895 @@
+﻿Log file open, 02/16/17 11:57:39
+LogInit:Display: Running engine for game: CursedDimension
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2017.02.16-17.57.39:428][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2017.02.16-17.57.39:503][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2017.02.16-17.57.39:526][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2017.02.16-17.57.39:534][  0]LogInit: Object subsystem initialized
+[2017.02.16-17.57.39:536][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2017.02.16-17.57.39:536][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2017.02.16-17.57.39:536][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2017.02.16-17.57.39:536][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2017.02.16-17.57.39:536][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2017.02.16-17.57.39:537][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.16-17.57.39:537][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.16-17.57.39:546][  0]LogInit: Computer: PONG
+[2017.02.16-17.57.39:546][  0]LogInit: User: bes0114
+[2017.02.16-17.57.39:546][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.02.16-17.57.39:546][  0]LogInit: High frequency timer resolution =3.126839 MHz
+[2017.02.16-17.57.39:546][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=131072.0GB
+[2017.02.16-17.57.39:546][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.16-17.57.39:546][  0]LogMemory: Process Physical Memory: 49.23 MB used, 49.23 MB peak
+[2017.02.16-17.57.39:546][  0]LogMemory: Process Virtual Memory: 25.39 MB used, 25.39 MB peak
+[2017.02.16-17.57.39:546][  0]LogMemory: Physical Memory: 4336.55 MB used, 32703.00 MB total
+[2017.02.16-17.57.39:546][  0]LogMemory: Virtual Memory: 274.57 MB used, 134217728.00 MB total
+[2017.02.16-17.57.39:572][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 Ti (Feature Level 11_0)
+[2017.02.16-17.57.39:572][  0]LogD3D11RHI: Adapter has 1924MB of dedicated video memory, 0MB of dedicated system memory, and 16351MB of shared system memory, 2 output[s]
+[2017.02.16-17.57.39:573][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2017.02.16-17.57.39:573][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2017.02.16-17.57.39:573][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2017.02.16-17.57.39:577][  0]LogRHI: Texture pool is 1347 MB (70% of 1924 MB)
+[2017.02.16-17.57.39:587][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.16-17.57.39:646][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2017.02.16-17.57.39:770][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2017.02.16-17.57.44:906][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.16-17.57.45:283][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.16-17.57.45:343][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.16-17.57.45:380][  0]LogDerivedDataCache: Loaded boot cache 0.04s 40MB C:/Users/bes0114/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2017.02.16-17.57.45:380][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/bes0114/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2017.02.16-17.57.45:381][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.16-17.57.45:381][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.16-17.57.45:442][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2017.02.16-17.57.45:454][  0]LogDerivedDataCache: Using Local data cache path C:/Users/bes0114/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.16-17.57.45:584][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2017.02.16-17.57.45:730][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.02.16-17.57.45:730][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.16-17.57.46:080][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.16-17.57.46:150][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2017.02.16-17.57.46:998][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.16-17.57.47:336][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage FPP_Fire_Montage does not match the length stored in the asset, please resave the montage asset.
+[2017.02.16-17.57.47:343][  0]BlueprintLog:Warning: Warning Blueprint Projectile has been migrated and requires re-saving to avoid import errors
+[2017.02.16-17.57.47:632][  0]SourceControl: Info Source control is disabled
+[2017.02.16-17.57.47:632][  0]SourceControl: Info Source control is disabled
+[2017.02.16-17.57.47:641][  0]SourceControl: Info Source control is disabled
+[2017.02.16-17.57.47:792][  0]LogObj: 27753 objects as part of root set at end of initial load.
+[2017.02.16-17.57.47:792][  0]LogUObjectAllocator: 6575856 out of 0 bytes used by permanent object pool.
+[2017.02.16-17.57.47:850][  0]LogEngine: Initializing Engine...
+[2017.02.16-17.57.47:997][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.02.16-17.57.48:015][  0]LogInit: FAudioDevice initialized.
+[2017.02.16-17.57.48:039][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.02.16-17.57.48:058][  0]LogDerivedDataCache: Saved boot cache 0.02s 40MB C:/Users/bes0114/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2017.02.16-17.57.48:062][  0]LogInit: Texture streaming: Enabled
+[2017.02.16-17.57.48:096][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2017.02.16-17.57.48:096][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2017.02.16-17.57.48:097][  0]LogAnalytics: SetUserId 204d110825f73ee56a115bb4ff055352
+[2017.02.16-17.57.48:097][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2017.02.16-17.57.48:116][  0]LogInit: Transaction tracking system initialized
+[2017.02.16-17.57.48:230][  0]BlueprintLog: New page: Editor Load
+[2017.02.16-17.57.48:265][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2017.02.16-17.57.48:265][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2017.02.16-17.57.48:705][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.16-17.57.48:990][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.16-17.57.49:204][  0]LogConsoleResponse:Display: 
+[2017.02.16-17.57.49:256][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.02.16-17.57.49:479][  0]SourceControl: Info Source control is disabled
+[2017.02.16-17.57.49:479][  0]Cmd: MAP LOAD FILE="../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2017.02.16-17.57.49:491][  0]LightingResults: New page: Lighting Build
+[2017.02.16-17.57.49:504][  0]MapCheck: New page: Map Check
+[2017.02.16-17.57.49:504][  0]LightingResults: New page: Lighting Build
+[2017.02.16-17.57.49:513][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005ECC313E20
+[2017.02.16-17.57.50:049][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.16-17.57.50:050][  0]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-17.57.50:050][  0]Cmd: MAP CHECKDEP
+[2017.02.16-17.57.50:050][  0]MapCheck: New page: Example_Map - Feb 16, 2017, 5:57:50 AM
+[2017.02.16-17.57.50:171][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 120.806ms to complete.
+[2017.02.16-17.57.50:171][  0]LogFileHelpers: Loading map 'Example_Map' took 0.692
+[2017.02.16-17.57.50:283][  0]LogCollectionManager: Loaded 0 collections in 0.001021 seconds
+[2017.02.16-17.57.50:416][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.16-17.57.50:457][  0]LogLoad: Full Startup: 13.12 seconds (BP compile: 0.14 seconds)
+[2017.02.16-17.57.50:470][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2017.02.16-17.57.50:656][  0]LogPackageName: SearchForPackageOnDisk took   0.126s to resolve LevelEditor.TutorialLaunchButton
+[2017.02.16-17.57.50:656][  0]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
+[2017.02.16-17.57.50:770][  0]LogPackageName: SearchForPackageOnDisk took   0.114s to resolve 
+[2017.02.16-17.57.50:770][  0]LogUObjectGlobals:Warning: LoadPackage can't find package .
+[2017.02.16-17.57.50:855][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2017.02.16-17.57.51:621][  3]LogAssetRegistry: Asset discovery search completed in 3.3678 seconds
+[2017.02.16-17.57.58:553][474]LogEditorViewport: Clicking on Actor (context menu): TextRenderActor (TemplateLabel)
+[2017.02.16-17.58.09:580][334]LogTexture:Display: Building textures: vanguard_diffuse (AutoDXT)
+[2017.02.16-17.58.10:155][334]LogTexture:Display: Building textures: vanguard_mask (AutoDXT)
+[2017.02.16-17.58.10:815][334]LogTexture:Display: Building textures: vanguard_normal (BC5)
+[2017.02.16-17.58.10:907][334]LogMaterial: Missing cached shader map for material Vanguard_Mat, compiling.
+[2017.02.16-17.58.19:229][950]Cmd: DELETE
+[2017.02.16-17.58.19:229][950]Cmd: ACTOR DELETE
+[2017.02.16-17.58.19:230][950]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.02.16-17.58.19:230][950]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2017.02.16-17.58.19:230][950]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2017.02.16-17.58.19:242][950]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.02.16-17.58.33:430][186]LogTexture:Display: Building textures: Vampire_diffuse (AutoDXT)
+[2017.02.16-17.58.35:566][186]LogTexture:Display: Building textures: Vampire_masks (AutoDXT)
+[2017.02.16-17.58.36:625][186]LogTexture:Display: Building textures: Vampire_normal (BC5)
+[2017.02.16-17.58.37:011][186]LogTexture:Display: Building textures: Vampire_emission (AutoDXT)
+[2017.02.16-17.58.37:070][186]LogMaterial: Missing cached shader map for material Vamp_Mat, compiling.
+[2017.02.16-17.58.37:088][186]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-17.58.51:867][318]LogTexture:Display: Building textures: Mortimer_diffuse (AutoDXT)
+[2017.02.16-17.58.54:397][318]LogTexture:Display: Building textures: Mortimer_normal (BC5)
+[2017.02.16-17.58.54:798][318]LogMaterial: Missing cached shader map for material Mort_Alpha, compiling.
+[2017.02.16-18.00.04:043][262]LogTexture:Display: Building textures: goblin_diffuse (AutoDXT)
+[2017.02.16-18.00.06:081][262]LogTexture:Display: Building textures: goblin_mask (AutoDXT)
+[2017.02.16-18.00.07:246][262]LogTexture:Display: Building textures: goblin_normal (BC5)
+[2017.02.16-18.00.07:636][262]LogMaterial: Missing cached shader map for material Goblin_mat, compiling.
+[2017.02.16-18.00.07:655][262]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.00.07:691][262]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.00.27:757][788]LogTexture:Display: Building textures: Ground_MuddyGrass_2k_alb (AutoDXT)
+[2017.02.16-18.00.30:100][788]LogTexture:Display: Building textures: Ground_MuddyGrass_2k_mask (AutoDXT)
+[2017.02.16-18.00.30:802][788]LogTexture:Display: Building textures: Ground_MuddyGrass_2k_n (BC5)
+[2017.02.16-18.00.31:312][788]LogTexture:Display: Building textures: Ground_MuddyGrass_2k_s (AutoDXT)
+[2017.02.16-18.00.32:311][788]LogMaterial: Missing cached shader map for material Ground_MuddyGrass_DRY, compiling.
+[2017.02.16-18.00.32:361][788]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.00.43:751][727]LogMaterial: Missing cached shader map for material Ground_MuddyGrass_WET, compiling.
+[2017.02.16-18.00.52:443][424]LogTexture:Display: Building textures: Ground_GrassThickGreen_2k_alb (AutoDXT)
+[2017.02.16-18.00.54:494][424]LogTexture:Display: Building textures: Ground_GrassThickGreen_2k_g (AutoDXT)
+[2017.02.16-18.00.55:883][424]LogTexture:Display: Building textures: Ground_GrassThickGreen_2k_h1 (AutoDXT)
+[2017.02.16-18.00.56:658][424]LogTexture:Display: Building textures: Ground_GrassThickGreen_2k_n (BC5)
+[2017.02.16-18.00.57:061][424]LogMaterial: Missing cached shader map for material Ground_GrassThickGreen, compiling.
+[2017.02.16-18.00.57:085][424]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.00.57:128][424]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.00.57:246][425]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.00.57:898][460]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.01.01:467][755]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.01.24:643][791]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.01.27:133][  6]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.01.32:388][433]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2017.02.16-18.01.33:658][513]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials'
+[2017.02.16-18.01.34:832][619]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MixamoAnimPack'
+[2017.02.16-18.01.36:025][716]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2017.02.16-18.01.38:752][947]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimStarterPack'
+[2017.02.16-18.01.43:394][250]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials'
+[2017.02.16-18.01.45:262][412]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials/Textures'
+[2017.02.16-18.01.50:819][841]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials/Textures/Ground_ClumpySnow'
+[2017.02.16-18.02.02:089][654]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/GTFreeMaterials/Textures/Ground_GrassThickGreen'
+[2017.02.16-18.02.25:516][462]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.02.27:035][579]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.02.28:296][671]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2017.02.16-18.02.30:247][791]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2017.02.16-18.02.31:102][866]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MixamoAnimPack'
+[2017.02.16-18.02.35:988][252]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MixamoAnimPack/Mixamo_Ganfault'
+[2017.02.16-18.02.38:845][471]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MixamoAnimPack/Mixamo_Ganfault/Anims'
+[2017.02.16-18.02.45:146][929]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MixamoAnimPack/Mixamo_Goblin'
+[2017.02.16-18.02.50:084][248]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.02.50:093][248]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.02.50:158][248]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.02.50:158][248]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.02.52:568][421]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.03.02:605][182]LogEditorViewport: Clicking on Actor (LMB): Mixamo_Goblin_C (Mixamo_Goblin)
+[2017.02.16-18.03.02:624][182]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.03.02:627][182]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.03.04:378][310]LogEditorViewport: Clicking on Actor (LMB): Mixamo_Goblin_C (Mixamo_Goblin)
+[2017.02.16-18.03.04:396][310]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.03.04:399][310]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.03.04:790][334]LogEditorViewport: Clicking on Actor (LMB): Mixamo_Goblin_C (Mixamo_Goblin)
+[2017.02.16-18.03.04:809][334]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.03.04:809][334]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.03.07:223][521]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.03.08:065][584]LogEditorViewport: Clicking on Actor (LMB): Mixamo_Goblin_C (Mixamo_Goblin)
+[2017.02.16-18.03.08:084][584]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.03.08:087][584]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.33:531][853]LogEditorViewport: Clicking Background
+[2017.02.16-18.04.33:619][857]LogEditorViewport: Clicking on Actor (double click): Mixamo_Goblin_C (Mixamo_Goblin)
+[2017.02.16-18.04.33:638][857]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.33:641][857]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.34:222][893]LogEditorViewport: Clicking Background
+[2017.02.16-18.04.34:275][894]LogEditorViewport: Clicking on Actor (double click): Mixamo_Goblin_C (Mixamo_Goblin)
+[2017.02.16-18.04.34:294][894]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.34:297][894]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.42:709][477]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.42:709][477]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.42:767][477]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.42:768][477]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.42:806][477]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.42:807][477]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.42:952][477]LogPackageName: SearchForPackageOnDisk took   0.116s to resolve LevelEditor.TutorialLaunchButton
+[2017.02.16-18.04.42:952][477]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
+[2017.02.16-18.04.43:065][477]LogPackageName: SearchForPackageOnDisk took   0.112s to resolve 
+[2017.02.16-18.04.43:065][477]LogUObjectGlobals:Warning: LoadPackage can't find package .
+[2017.02.16-18.04.59:279][549]LogEditorViewport: Clicking on Actor (LMB): Mixamo_Goblin_C (Mixamo_Goblin)
+[2017.02.16-18.04.59:297][549]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.04.59:300][549]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.03:964][888]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.03:964][888]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.04:014][888]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.04:015][888]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.04:160][888]LogPackageName: SearchForPackageOnDisk took   0.120s to resolve LevelEditor.TutorialLaunchButton
+[2017.02.16-18.05.04:160][888]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
+[2017.02.16-18.05.04:273][888]LogPackageName: SearchForPackageOnDisk took   0.113s to resolve 
+[2017.02.16-18.05.04:273][888]LogUObjectGlobals:Warning: LoadPackage can't find package .
+[2017.02.16-18.05.10:360][309]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.05.12:033][440]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.05.12:036][440]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2017.02.16-18.05.12:084][440]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.05.12:150][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2017.02.16-18.05.12:150][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2017.02.16-18.05.12:150][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2017.02.16-18.05.12:167][440]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EA0F7D080
+[2017.02.16-18.05.12:168][440]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EA7821E40
+[2017.02.16-18.05.12:174][440]LogPlayLevel: PIE:  Blueprint regeneration took 140 ms (2 blueprints)
+[2017.02.16-18.05.12:174][440]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:05:12 AM)
+[2017.02.16-18.05.12:211][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036524s)
+[2017.02.16-18.05.12:212][440]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2017.02.16-18.05.12:213][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.038013s)
+[2017.02.16-18.05.12:270][440]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.05.12:272][440]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.05.12:275][440]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.05.12
+[2017.02.16-18.05.12:314][440]LogWorld: Bringing up level for play took: 0.040958
+[2017.02.16-18.05.12:315][440]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.967
+[2017.02.16-18.05.20:471][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EC09C9D00
+[2017.02.16-18.05.22:082][339]LogEditorViewport: Clicking on Actor (LMB): Mixamo_Goblin_C (Mixamo_Goblin)
+[2017.02.16-18.05.22:101][339]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.22:104][339]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.34:904][239]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.34:905][239]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.35:720][300]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.35:734][301]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.35:747][302]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.35:748][302]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.35:762][303]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.35:776][304]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.36:834][386]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.36:835][386]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.36:862][388]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.36:889][390]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.36:890][390]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.37:245][417]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.37:259][418]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.37:274][419]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.37:275][419]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.37:289][420]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.37:917][465]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.57:387][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.57:683][849]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.57:684][849]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.57:698][850]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.57:942][868]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.57:943][868]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.57:944][868]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.57:958][869]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.57:973][870]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.57:974][870]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.58:002][872]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.58:276][892]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.58:277][892]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.58:277][892]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.58:292][893]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.58:293][893]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.58:293][893]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.58:562][912]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.05.58:577][913]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2017.02.16-18.06.06:905][537]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.07.59:421][408]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2017.02.16-18.07.59:653][408]LogSavePackage: Save=166.771622ms
+[2017.02.16-18.07.59:653][408]LogSavePackage: Moving '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Example_Map_Auto17FDAB898417BDE6881B891813B6DD091.tmp' to '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2017.02.16-18.07.59:664][408]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.243
+[2017.02.16-18.07.59:664][408]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.243
+[2017.02.16-18.08.41:703][290]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.08.42:218][327]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.08.42:898][378]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.08.45:682][598]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.08.46:027][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Portal to Level 1)
+[2017.02.16-18.08.46:040][621]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.08.46:628][662]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.08.47:012][690]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.08.47:195][700]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.08.47:595][730]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.08.50:067][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Portal to Level 1)
+[2017.02.16-18.08.50:076][921]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.08.50:961][986]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.08.51:931][ 57]LogEditorViewport: Clicking Background
+[2017.02.16-18.08.54:756][324]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.08.55:715][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Portal to Level 1)
+[2017.02.16-18.08.55:724][397]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.08.56:584][460]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.09.23:119][472]LogPackageName: SearchForPackageOnDisk took   0.117s to resolve LevelEditor.TutorialLaunchButton
+[2017.02.16-18.09.23:119][472]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
+[2017.02.16-18.09.23:231][472]LogPackageName: SearchForPackageOnDisk took   0.112s to resolve 
+[2017.02.16-18.09.23:231][472]LogUObjectGlobals:Warning: LoadPackage can't find package .
+[2017.02.16-18.10.49:926][180]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.10.57:697][541]LogEditorViewport: Clicking on Actor (LMB): Mixamo_Goblin_C (Mixamo_Goblin)
+[2017.02.16-18.10.57:716][541]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.10.57:719][541]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.11.35:033][297]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.11.35:106][297]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2017.02.16-18.11.35:137][297]BlueprintEditorCompileResults: Info [0837.80] Compile of Example_Map successful! [in 91 ms]
+[2017.02.16-18.11.38:231][444]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.11.40:242][567]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.11.40:590][592]LogEditorViewport: Clicking on Actor (LMB): Mixamo_Goblin_C (Mixamo_Goblin)
+[2017.02.16-18.11.40:609][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.11.40:612][592]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.11.41:431][647]Cmd: DELETE
+[2017.02.16-18.11.41:431][647]Cmd: ACTOR DELETE
+[2017.02.16-18.11.41:432][647]LogEditorActor: Deleted Actor: Mixamo_Goblin_C
+[2017.02.16-18.11.41:476][647]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2017.02.16-18.11.43:289][825]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.11.43:303][825]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.11.43:388][825]LogPlayLevel: PIE:  Blueprint regeneration took 98 ms (1 blueprints)
+[2017.02.16-18.11.43:388][825]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:11:43 AM)
+[2017.02.16-18.11.43:426][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036955s)
+[2017.02.16-18.11.43:426][825]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2017.02.16-18.11.43:426][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.037908s)
+[2017.02.16-18.11.43:459][825]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.11.43:460][825]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.11.43:463][825]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.11.43
+[2017.02.16-18.11.43:464][825]LogWorld: Bringing up level for play took: 0.003308
+[2017.02.16-18.11.43:465][825]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.117
+[2017.02.16-18.11.57:329][176]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E80834360
+[2017.02.16-18.12.28:796][938]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.12.41:417][929]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.12.45:175][215]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.12.45:734][256]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.12.46:525][314]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.12.46:911][342]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.12.48:103][431]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.12.48:594][467]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.13.17:077][376]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.13.17:078][376]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.13.17:119][376]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.13.17:120][376]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.13.52:666][334]Cmd: DELETE
+[2017.02.16-18.13.52:666][334]Cmd: ACTOR DELETE
+[2017.02.16-18.13.52:666][334]LogEditorActor: Deleted Actor: Mixamo_Goblin_C
+[2017.02.16-18.13.52:692][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2017.02.16-18.13.52:710][334]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2017.02.16-18.13.58:800][532]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.13.58:891][532]BlueprintEditorCompileResults: Info [0981.56] Compile of Example_Map successful! [in 79 ms]
+[2017.02.16-18.14.00:568][624]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.14.00:582][624]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.14.00:665][624]LogPlayLevel: PIE:  Blueprint regeneration took 97 ms (1 blueprints)
+[2017.02.16-18.14.00:666][624]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:14:00 AM)
+[2017.02.16-18.14.00:701][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034682s)
+[2017.02.16-18.14.00:701][624]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2017.02.16-18.14.00:701][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.035574s)
+[2017.02.16-18.14.00:734][624]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.14.00:735][624]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.14.00:738][624]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.14.00
+[2017.02.16-18.14.00:739][624]LogWorld: Bringing up level for play took: 0.003267
+[2017.02.16-18.14.00:740][624]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.608
+[2017.02.16-18.14.08:512][ 20]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EDBBFE660
+[2017.02.16-18.14.15:940][443]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.14.16:030][443]BlueprintEditorCompileResults: Info [0998.70] Compile of Example_Map successful! [in 78 ms]
+[2017.02.16-18.14.16:600][472]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.14.16:613][472]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.14.16:696][472]LogPlayLevel: PIE:  Blueprint regeneration took 96 ms (1 blueprints)
+[2017.02.16-18.14.16:696][472]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:14:16 AM)
+[2017.02.16-18.14.16:731][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035166s)
+[2017.02.16-18.14.16:733][472]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2017.02.16-18.14.16:733][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.036376s)
+[2017.02.16-18.14.16:766][472]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.14.16:767][472]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.14.16:770][472]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.14.16
+[2017.02.16-18.14.16:771][472]LogWorld: Bringing up level for play took: 0.003289
+[2017.02.16-18.14.16:772][472]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.576
+[2017.02.16-18.14.22:453][779]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EC61AE700
+[2017.02.16-18.14.27:745][ 79]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.14.27:836][ 79]BlueprintEditorCompileResults: Info [1010.50] Compile of Example_Map successful! [in 78 ms]
+[2017.02.16-18.14.28:425][109]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.14.28:439][109]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.14.28:522][109]LogPlayLevel: PIE:  Blueprint regeneration took 97 ms (1 blueprints)
+[2017.02.16-18.14.28:522][109]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:14:28 AM)
+[2017.02.16-18.14.28:559][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035860s)
+[2017.02.16-18.14.28:560][109]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2017.02.16-18.14.28:560][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.037128s)
+[2017.02.16-18.14.28:590][109]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.14.28:591][109]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.14.28:594][109]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.14.28
+[2017.02.16-18.14.28:595][109]LogWorld: Bringing up level for play took: 0.003306
+[2017.02.16-18.14.28:596][109]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.752
+[2017.02.16-18.14.34:436][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EC60C0B80
+[2017.02.16-18.14.49:149][210]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.02.16-18.14.49:150][210]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.02.16-18.14.49:150][210]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SpawnActorFromClass_1.EdGraphPin_17546"''
+[2017.02.16-18.15.18:440][795]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.15.18:535][795]BlueprintEditorCompileResults: Info [1061.20] Compile of Example_Map successful! [in 82 ms]
+[2017.02.16-18.15.21:288][974]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.15.21:303][974]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.15.21:387][974]LogPlayLevel: PIE:  Blueprint regeneration took 99 ms (1 blueprints)
+[2017.02.16-18.15.21:387][974]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:15:21 AM)
+[2017.02.16-18.15.21:424][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036383s)
+[2017.02.16-18.15.21:425][974]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2017.02.16-18.15.21:425][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.037642s)
+[2017.02.16-18.15.21:458][974]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.15.21:459][974]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.15.21:462][974]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.15.21
+[2017.02.16-18.15.21:463][974]LogWorld: Bringing up level for play took: 0.003309
+[2017.02.16-18.15.21:464][974]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.116
+[2017.02.16-18.15.31:100][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EAC6FBB00
+[2017.02.16-18.15.44:398][611]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.15.44:493][611]BlueprintEditorCompileResults: Info [1087.16] Compile of Example_Map successful! [in 82 ms]
+[2017.02.16-18.15.45:459][659]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.15.45:474][659]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.15.45:559][659]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (1 blueprints)
+[2017.02.16-18.15.45:559][659]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:15:45 AM)
+[2017.02.16-18.15.45:596][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036692s)
+[2017.02.16-18.15.45:597][659]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2017.02.16-18.15.45:597][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.038107s)
+[2017.02.16-18.15.45:633][659]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.15.45:634][659]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.15.45:637][659]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.15.45
+[2017.02.16-18.15.45:638][659]LogWorld: Bringing up level for play took: 0.003278
+[2017.02.16-18.15.45:639][659]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.291
+[2017.02.16-18.15.57:781][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E8F7E2700
+[2017.02.16-18.16.25:222][172]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.02.16-18.16.25:222][172]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.02.16-18.16.25:223][172]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2434.EdGraphPin_19383"''
+[2017.02.16-18.17.33:065][867]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.17.33:166][867]BlueprintEditorCompileResults: Info [1195.83] Compile of Example_Map successful! [in 86 ms]
+[2017.02.16-18.17.33:691][890]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.17.33:707][890]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.17.33:796][890]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
+[2017.02.16-18.17.33:796][890]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:17:33 AM)
+[2017.02.16-18.17.33:837][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040239s)
+[2017.02.16-18.17.33:838][890]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2017.02.16-18.17.33:838][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.041279s)
+[2017.02.16-18.17.33:869][890]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.17.33:870][890]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.17.33:873][890]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.17.33
+[2017.02.16-18.17.33:874][890]LogWorld: Bringing up level for play took: 0.003318
+[2017.02.16-18.17.33:875][890]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.527
+[2017.02.16-18.17.41:663][258]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EAA77A660
+[2017.02.16-18.17.59:195][220]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.17.59:683][255]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.18.00:026][280]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.18.00:385][306]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.18.00:942][348]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.18.05:940][690]LogPackageName: SearchForPackageOnDisk took   0.116s to resolve LevelEditor.TutorialLaunchButton
+[2017.02.16-18.18.05:940][690]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
+[2017.02.16-18.18.06:052][690]LogPackageName: SearchForPackageOnDisk took   0.112s to resolve 
+[2017.02.16-18.18.06:052][690]LogUObjectGlobals:Warning: LoadPackage can't find package .
+[2017.02.16-18.19.03:905][778]LogSavePackage: Save=184.117889ms
+[2017.02.16-18.19.03:905][778]LogSavePackage: Moving '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Example_Map_Auto25874BDBA4C964F425FA8699277838EB7.tmp' to '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Autosaves/Game/Maps/Example_Map_Auto2.umap'
+[2017.02.16-18.19.03:917][778]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.259
+[2017.02.16-18.19.03:917][778]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.259
+[2017.02.16-18.22.58:135][875]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.22.58:205][875]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2017.02.16-18.22.58:260][875]BlueprintEditorCompileResults: Info [1520.93] Compile of Example_Map successful! [in 110 ms]
+[2017.02.16-18.22.58:766][893]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.22.58:805][893]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.22.58:918][893]LogPlayLevel: PIE:  Blueprint regeneration took 152 ms (1 blueprints)
+[2017.02.16-18.22.58:918][893]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:22:58 AM)
+[2017.02.16-18.22.58:959][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040978s)
+[2017.02.16-18.22.58:960][893]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2017.02.16-18.22.58:960][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.042088s)
+[2017.02.16-18.22.58:994][893]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.22.58:995][893]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.22.58:998][893]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.22.58
+[2017.02.16-18.22.58:999][893]LogWorld: Bringing up level for play took: 0.003391
+[2017.02.16-18.22.59:001][893]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.347
+[2017.02.16-18.23.01:007][983]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.23.01:158][984]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EA0064540
+[2017.02.16-18.23.03:525][130]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.23.04:779][226]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.23.04:818][226]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.23.04:931][226]LogPlayLevel: PIE:  Blueprint regeneration took 150 ms (1 blueprints)
+[2017.02.16-18.23.04:931][226]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:23:04 AM)
+[2017.02.16-18.23.04:967][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035687s)
+[2017.02.16-18.23.04:968][226]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2017.02.16-18.23.04:968][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.036878s)
+[2017.02.16-18.23.04:999][226]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.23.05:000][226]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.23.05:003][226]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.23.05
+[2017.02.16-18.23.05:004][226]LogWorld: Bringing up level for play took: 0.003325
+[2017.02.16-18.23.05:005][226]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.344
+[2017.02.16-18.23.18:361][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EA480BB00
+[2017.02.16-18.25.13:982][645]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.25.14:052][645]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2017.02.16-18.25.14:085][645]BlueprintEditorCompileResults: Info [1656.79] Compile of Example_Map successful! [in 89 ms]
+[2017.02.16-18.25.14:891][679]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.25.14:907][679]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.25.15:002][679]LogPlayLevel: PIE:  Blueprint regeneration took 111 ms (1 blueprints)
+[2017.02.16-18.25.15:002][679]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:25:15 AM)
+[2017.02.16-18.25.15:044][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041654s)
+[2017.02.16-18.25.15:045][679]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2017.02.16-18.25.15:045][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.042710s)
+[2017.02.16-18.25.15:081][679]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.25.15:082][679]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.25.15:085][679]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.25.15
+[2017.02.16-18.25.15:086][679]LogWorld: Bringing up level for play took: 0.003397
+[2017.02.16-18.25.15:087][679]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.219
+[2017.02.16-18.25.25:215][605]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E81D2E660
+[2017.02.16-18.26.36:291][610]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.26.36:394][610]BlueprintEditorCompileResults: Info [1739.15] Compile of Example_Map successful! [in 89 ms]
+[2017.02.16-18.27.03:830][121]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.27.05:887][282]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.27.05:891][282]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.27.05:962][282]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2017.02.16-18.27.05:977][282]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2017.02.16-18.27.05:978][282]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:27:05 AM)
+[2017.02.16-18.27.06:016][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038597s)
+[2017.02.16-18.27.06:017][282]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2017.02.16-18.27.06:017][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.039613s)
+[2017.02.16-18.27.06:051][282]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.27.06:052][282]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.27.06:055][282]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.27.06
+[2017.02.16-18.27.06:056][282]LogWorld: Bringing up level for play took: 0.003361
+[2017.02.16-18.27.06:057][282]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.818
+[2017.02.16-18.27.18:537][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E90E3C540
+[2017.02.16-18.27.31:674][531]LogPackageName: SearchForPackageOnDisk took   0.116s to resolve LevelEditor.TutorialLaunchButton
+[2017.02.16-18.27.31:674][531]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
+[2017.02.16-18.27.31:786][531]LogPackageName: SearchForPackageOnDisk took   0.112s to resolve 
+[2017.02.16-18.27.31:786][531]LogUObjectGlobals:Warning: LoadPackage can't find package .
+[2017.02.16-18.27.47:815][219]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.28.24:092][848]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.28.24:161][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2017.02.16-18.28.24:194][848]BlueprintEditorCompileResults: Info [1847.02] Compile of Example_Map successful! [in 87 ms]
+[2017.02.16-18.28.24:912][877]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.28.24:929][877]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.28.25:020][877]LogPlayLevel: PIE:  Blueprint regeneration took 108 ms (1 blueprints)
+[2017.02.16-18.28.25:021][877]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:28:25 AM)
+[2017.02.16-18.28.25:057][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035865s)
+[2017.02.16-18.28.25:057][877]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2017.02.16-18.28.25:058][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.036787s)
+[2017.02.16-18.28.25:093][877]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.28.25:094][877]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.28.25:097][877]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.28.25
+[2017.02.16-18.28.25:098][877]LogWorld: Bringing up level for play took: 0.003354
+[2017.02.16-18.28.25:099][877]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.093
+[2017.02.16-18.28.42:307][493]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EA65A91C0
+[2017.02.16-18.29.09:495][902]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.02.16-18.29.09:496][902]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.02.16-18.29.09:496][902]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.02.16-18.29.09:496][902]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2017.02.16-18.29.09:496][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SpawnActorFromClass_35.EdGraphPin_19397"''
+[2017.02.16-18.29.09:498][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_SpawnActorFromClass_1.EdGraphPin_20384"''
+[2017.02.16-18.29.09:498][902]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2434.EdGraphPin_20408"''
+[2017.02.16-18.29.48:437][678]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.29.48:547][678]BlueprintEditorCompileResults: Info [1931.40] Compile of Example_Map successful! [in 93 ms]
+[2017.02.16-18.29.50:889][818]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.29.50:907][818]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.29.51:002][818]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (1 blueprints)
+[2017.02.16-18.29.51:003][818]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:29:51 AM)
+[2017.02.16-18.29.51:038][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035616s)
+[2017.02.16-18.29.51:039][818]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2017.02.16-18.29.51:040][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.036842s)
+[2017.02.16-18.29.51:069][818]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.29.51:070][818]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.29.51:073][818]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.29.51
+[2017.02.16-18.29.51:074][818]LogWorld: Bringing up level for play took: 0.003339
+[2017.02.16-18.29.51:075][818]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.082
+[2017.02.16-18.29.57:740][441]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EA480ACA0
+[2017.02.16-18.30.11:059][912]LogSavePackage: Save=191.822800ms
+[2017.02.16-18.30.11:059][912]LogSavePackage: Moving '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Example_Map_Auto3B748C57B4533C4B7DF0FF8B64D4C6928.tmp' to '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Autosaves/Game/Maps/Example_Map_Auto3.umap'
+[2017.02.16-18.30.11:068][912]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.267
+[2017.02.16-18.30.11:068][912]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.267
+[2017.02.16-18.30.32:543][766]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.30.32:651][766]BlueprintEditorCompileResults: Info [1975.52] Compile of Example_Map successful! [in 93 ms]
+[2017.02.16-18.30.45:104][242]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.30.45:212][242]BlueprintEditorCompileResults: Info [1988.08] Compile of Example_Map successful! [in 91 ms]
+[2017.02.16-18.30.48:922][434]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.30.48:941][434]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.30.49:036][434]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
+[2017.02.16-18.30.49:037][434]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:30:49 AM)
+[2017.02.16-18.30.49:076][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039233s)
+[2017.02.16-18.30.49:077][434]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2017.02.16-18.30.49:077][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.040176s)
+[2017.02.16-18.30.49:105][434]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.30.49:107][434]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.30.49:110][434]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.30.49
+[2017.02.16-18.30.49:111][434]LogWorld: Bringing up level for play took: 0.003423
+[2017.02.16-18.30.49:112][434]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.033
+[2017.02.16-18.31.00:114][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EACE265C0
+[2017.02.16-18.31.55:311][847]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.31.55:421][847]BlueprintEditorCompileResults: Info [2058.30] Compile of Example_Map successful! [in 94 ms]
+[2017.02.16-18.31.55:997][866]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.31.56:016][866]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.31.56:111][866]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
+[2017.02.16-18.31.56:111][866]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:31:56 AM)
+[2017.02.16-18.31.56:150][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038371s)
+[2017.02.16-18.31.56:151][866]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2017.02.16-18.31.56:151][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.039411s)
+[2017.02.16-18.31.56:189][866]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.31.56:190][866]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.31.56:193][866]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.31.56
+[2017.02.16-18.31.56:194][866]LogWorld: Bringing up level for play took: 0.003347
+[2017.02.16-18.31.56:195][866]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.065
+[2017.02.16-18.32.04:766][609]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EAD1118A0
+[2017.02.16-18.33.17:711][739]BlueprintLog: New page: Compile Example_Map
+[2017.02.16-18.33.17:821][739]BlueprintEditorCompileResults: Info [2140.72] Compile of Example_Map successful! [in 93 ms]
+[2017.02.16-18.33.18:278][759]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.33.18:296][759]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.33.18:391][759]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (1 blueprints)
+[2017.02.16-18.33.18:392][759]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:33:18 AM)
+[2017.02.16-18.33.18:428][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036001s)
+[2017.02.16-18.33.18:429][759]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2017.02.16-18.33.18:429][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.037337s)
+[2017.02.16-18.33.18:460][759]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.33.18:462][759]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.33.18:465][759]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.33.18
+[2017.02.16-18.33.18:466][759]LogWorld: Bringing up level for play took: 0.003386
+[2017.02.16-18.33.18:467][759]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.646
+[2017.02.16-18.33.37:263][514]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EAFBF2980
+[2017.02.16-18.34.24:351][677]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Audio'
+[2017.02.16-18.34.24:724][707]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2017.02.16-18.34.28:967][ 27]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.34.28:997][ 27]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.35.00:790][799]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.35.00:800][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2017.02.16-18.35.00:800][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2017.02.16-18.35.00:800][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2017.02.16-18.35.12:659][528]BlueprintLog: New page: Compile Projectile
+[2017.02.16-18.35.12:670][528]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.35.12:713][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2017.02.16-18.35.12:737][528]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.35.12:750][528]BlueprintEditorCompileResults: Info [2255.67] Compile of Projectile successful! [in 89 ms]
+[2017.02.16-18.35.18:260][897]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.35.18:278][897]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.35.18:359][897]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2017.02.16-18.35.18:374][897]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (1 blueprints)
+[2017.02.16-18.35.18:374][897]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:35:18 AM)
+[2017.02.16-18.35.18:408][897]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033635s)
+[2017.02.16-18.35.18:409][897]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2017.02.16-18.35.18:409][897]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.035102s)
+[2017.02.16-18.35.18:444][897]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.35.18:446][897]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.35.18:449][897]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.35.18
+[2017.02.16-18.35.18:449][897]LogWorld: Bringing up level for play took: 0.003297
+[2017.02.16-18.35.18:451][897]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.646
+[2017.02.16-18.35.36:364][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EB2A3A2A0
+[2017.02.16-18.35.37:495][714]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.35.49:993][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube19)
+[2017.02.16-18.35.50:002][406]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.35.56:957][963]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.35.59:150][145]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.37.40:516][882]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.37.40:526][882]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2017.02.16-18.37.40:526][882]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2017.02.16-18.37.57:876][885]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.37.57:886][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_6) Not registered. Aborting.
+[2017.02.16-18.37.59:638][988]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.37.59:648][988]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_7) Not registered. Aborting.
+[2017.02.16-18.38.06:427][409]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.38.06:437][409]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2017.02.16-18.38.15:587][968]BlueprintLog: New page: Compile Projectile
+[2017.02.16-18.38.15:598][968]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.38.15:642][968]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_9) Not registered. Aborting.
+[2017.02.16-18.38.15:738][968]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.38.15:751][968]BlueprintEditorCompileResults: Info [2438.68] Compile of Projectile successful! [in 162 ms]
+[2017.02.16-18.38.19:346][243]BlueprintLog: New page: Pre-PIE auto-recompile
+[2017.02.16-18.38.19:352][243]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2017.02.16-18.38.19:434][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_10) Not registered. Aborting.
+[2017.02.16-18.38.19:450][243]LogPlayLevel: PIE:  Blueprint regeneration took 104 ms (1 blueprints)
+[2017.02.16-18.38.19:450][243]PIE: New page: PIE session: Example_Map (Feb 16, 2017, 6:38:19 AM)
+[2017.02.16-18.38.19:487][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036927s)
+[2017.02.16-18.38.19:488][243]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2017.02.16-18.38.19:488][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.038273s)
+[2017.02.16-18.38.19:520][243]LogWorld: Game class is 'CursedDimensionGameMode'
+[2017.02.16-18.38.19:522][243]LogAIModule: Creating AISystem for world Example_Map
+[2017.02.16-18.38.19:525][243]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2017.02.16-12.38.19
+[2017.02.16-18.38.19:526][243]LogWorld: Bringing up level for play took: 0.003301
+[2017.02.16-18.38.19:527][243]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.444
+[2017.02.16-18.38.30:389][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EAA0A8C20
+[2017.02.16-18.40.00:070][513]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.40.03:511][794]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.40.04:978][913]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.40.19:626][ 89]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.40.31:832][ 82]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.40.39:379][694]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.40.42:565][945]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.40.43:048][981]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.40.43:655][ 27]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.40.43:960][ 49]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.40.44:322][ 75]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.40.45:217][144]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2017.02.16-18.41.18:934][513]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_11) Not registered. Aborting.
+[2017.02.16-18.41.18:934][513]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2017.02.16-18.41.19:216][513]LogSavePackage: Save=187.795090ms
+[2017.02.16-18.41.19:217][513]LogSavePackage: Moving '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Example_Map_Auto46CB9702C4BA585641CD01B8D102A62E4.tmp' to '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Autosaves/Game/Maps/Example_Map_Auto4.umap'
+[2017.02.16-18.41.19:225][513]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.291
+[2017.02.16-18.41.19:225][513]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.291
+[2017.02.16-18.41.19:236][513]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Projectile] ([1] browsable assets)...
+[2017.02.16-18.41.19:266][513]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Projectile.Projectile]
+[2017.02.16-18.41.19:266][513]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Projectile]
+[2017.02.16-18.41.19:729][513]LogSavePackage: Save=456.129669ms
+[2017.02.16-18.41.19:729][513]LogSavePackage: Moving '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Projectile_Auto4894891394FEF20FB41A467A9B825EDC7.tmp' to '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Autosaves/Game/Blueprints/Projectile_Auto4.uasset'
+[2017.02.16-18.41.19:736][513]LogFileHelpers: Auto-saving content packages took 0.511
+[2017.02.16-18.41.21:388][577]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.02.16-18.41.33:280][160]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.41.37:087][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_12) Not registered. Aborting.
+[2017.02.16-18.41.37:087][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2017.02.16-18.41.37:106][442]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EA19C6700
+[2017.02.16-18.41.37:276][442]LogSavePackage: Save=169.714523ms
+[2017.02.16-18.41.37:276][442]LogSavePackage: Moving '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Example_MapF559981A4721AFFA169D76BF37378175.tmp' to '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Content/Maps/Example_Map.umap'
+[2017.02.16-18.46.06:410][342]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.02.16-18.46.10:681][669]LogSavePackage: Save=174.991425ms
+[2017.02.16-18.46.10:681][669]LogSavePackage: Moving '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Example_Map6E3E517347F4390B914B6DA9C08CBC30.tmp' to '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Content/Maps/Example_Map.umap'
+[2017.02.16-18.46.15:748][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Projectile" FILE="../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Content/Blueprints/Projectile.uasset" SILENT=true
+[2017.02.16-18.46.15:764][799]LogSavePackage: Save=8.415527ms
+[2017.02.16-18.46.15:764][799]LogSavePackage: Moving '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Saved/Projectile0AF7BFD14CE8B03205A1F98EE1CC14D6.tmp' to '../../../../../../Users/bes0114/Documents/Unreal Projects/CursedDimension/Content/Blueprints/Projectile.uasset'
+[2017.02.16-18.46.16:260][800]Cmd: QUIT_EDITOR
+[2017.02.16-18.46.16:576][800]LogExit: Preparing to exit.
+[2017.02.16-18.46.17:579][800]LogExit: Editor shut down
+[2017.02.16-18.46.17:580][800]LogExit: Transaction tracking system shut down
+[2017.02.16-18.46.17:581][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EC0D7F920
+[2017.02.16-18.46.17:581][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EDB6E4C20
+[2017.02.16-18.46.17:581][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EDB6E4FE0
+[2017.02.16-18.46.17:581][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EDB6E6700
+[2017.02.16-18.46.17:582][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EDB8C2700
+[2017.02.16-18.46.17:582][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EDBBFD4E0
+[2017.02.16-18.46.17:657][800]LogExit: Object subsystem successfully closed.
+[2017.02.16-18.46.17:709][800]LogModuleManager: Shutting down and abandoning module Merge (173)
+[2017.02.16-18.46.17:709][800]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2017.02.16-18.46.17:709][800]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2017.02.16-18.46.17:709][800]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2017.02.16-18.46.17:709][800]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2017.02.16-18.46.17:709][800]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2017.02.16-18.46.17:709][800]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2017.02.16-18.46.17:710][800]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2017.02.16-18.46.17:711][800]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2017.02.16-18.46.17:795][800]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2017.02.16-18.46.17:893][800]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2017.02.16-18.46.17:894][800]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2017.02.16-18.46.17:894][800]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2017.02.16-18.46.17:894][800]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2017.02.16-18.46.17:895][800]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2017.02.16-18.46.17:895][800]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2017.02.16-18.46.17:895][800]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2017.02.16-18.46.17:895][800]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2017.02.16-18.46.17:895][800]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2017.02.16-18.46.17:895][800]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2017.02.16-18.46.17:895][800]LogModuleManager: Shutting down and abandoning module CursedDimension (77)
+[2017.02.16-18.46.17:895][800]LogModuleManager: Shutting down and abandoning module ScriptPlugin (76)
+[2017.02.16-18.46.17:895][800]LogModuleManager: Shutting down and abandoning module UdpMessaging (75)
+[2017.02.16-18.46.17:996][800]LogModuleManager: Shutting down and abandoning module Paper2D (74)
+[2017.02.16-18.46.17:996][800]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2017.02.16-18.46.17:998][800]LogModuleManager: Shutting down and abandoning module Media (72)
+[2017.02.16-18.46.17:998][800]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2017.02.16-18.46.17:998][800]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2017.02.16-18.46.17:998][800]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2017.02.16-18.46.17:999][800]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2017.02.16-18.46.17:999][800]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2017.02.16-18.46.17:999][800]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2017.02.16-18.46.17:999][800]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2017.02.16-18.46.17:999][800]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2017.02.16-18.46.17:999][800]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2017.02.16-18.46.17:999][800]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2017.02.16-18.46.17:999][800]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2017.02.16-18.46.17:999][800]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2017.02.16-18.46.17:999][800]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2017.02.16-18.46.17:999][800]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2017.02.16-18.46.18:003][800]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2017.02.16-18.46.18:003][800]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2017.02.16-18.46.18:003][800]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2017.02.16-18.46.18:003][800]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2017.02.16-18.46.18:003][800]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2017.02.16-18.46.18:003][800]LogModuleManager: Shutting down and abandoning module Core (51)
+[2017.02.16-18.46.18:003][800]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2017.02.16-18.46.18:003][800]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2017.02.16-18.46.18:003][800]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2017.02.16-18.46.18:003][800]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2017.02.16-18.46.18:016][800]LogDerivedDataCache: Shutdown
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2017.02.16-18.46.18:016][800]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2017.02.16-18.46.18:018][800]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2017.02.16-18.46.18:018][800]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2017.02.16-18.46.18:018][800]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.16-18.46.18:018][800]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.16-18.46.18:018][800]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.16-18.46.18:019][800]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.16-18.46.18:019][800]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.16-18.46.18:019][800]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.16-18.46.18:019][800]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.16-18.46.18:019][800]LogExit: Exiting.
+[2017.02.16-18.46.18:031][800]Log file closed, 02/16/17 12:46:18
